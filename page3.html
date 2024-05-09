@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Quiz 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <style>
+        #brand {
+            width: 50px;
+        }
+        body {
+            background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Philippines-2196x1406.jpg');
+            background-position: center;
+            color: black;
+            text-align: center;
+        }
+        header {
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'Raleway', sans-serif;
+            background-color: white;
+            padding: 15px;
+            opacity: .95;
+        }
+        .desc {
+            text-align: center;
+            font-size: larger;
+            font-family: 'Barlow', sans-serif;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 25px;
+            margin: auto;
+            padding: 10px;
+            width: 1300px;
+            opacity: .8;
+        }
+        .best {
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Raleway', sans-serif;
+            padding: 10px;
+            margin: auto;
+            background-color: white;
+            opacity: .95;
+        }
+        h3 {
+            text-align: center;
+            font-size: larger;
+            font-family: 'Raleway', sans-serif;
+        }
+        .container {
+            width: 1650px;
+            margin: auto;  
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px 10px;
+            grid-auto-flow: row;
+            grid-template-areas:
+            "Boracay Siargao-IMG Baguio"
+            "Boracay-IMG Siargao Baguio-IMG";
+            opacity: 0.8;
+        }
+        
+        .Boracay { 
+            grid-area: Boracay;
+            text-align: center;
+            font-size: large;
+            font-family: 'Barlow', sans-serif;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 25px;
+            text-align: center;
+            padding: 25px;
+            }
+        
+        .Boracay-IMG { 
+            grid-area: Boracay-IMG;
+            border: 3px solid black;
+            border-radius: 25px;
+            background-image: url('https://wallpaperaccess.com/full/1740357.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+        
+        .Siargao-IMG { 
+            grid-area: Siargao-IMG; 
+            border: 3px solid black;
+            border-radius: 25px;
+            background-image: url('https://wallpapers.com/images/hd/siargao-island-cloud-9-6bcbq7dfim0d09p1.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+        
+        .Siargao { 
+            grid-area: Siargao;
+            text-align: center;
+            font-size: large;
+            font-family: 'Barlow', sans-serif;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 25px;
+            text-align: center;
+            padding: 25px;
+            }
+        
+        .Baguio { 
+            grid-area: Baguio;
+            text-align: center;
+            font-size: large;
+            font-family: 'Barlow', sans-serif;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 25px;
+            text-align: center;
+            padding: 25px;
+            }
+        
+        .Baguio-IMG { 
+            grid-area: Baguio-IMG; 
+            border: 3px solid black;
+            border-radius: 25px;
+            background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4a/0e/21/valley-of-colors.jpg?w=1200&h=-1&s=1');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+        footer {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            font-family: 'Barlow', sans-serif;
+            opacity: .95;
+        }
+
+        h4 {
+            font-family: 'Raleway', sans-serif;
+        }
+  
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img class="rounded-circle" src="https://storage.googleapis.com/oa_disk001/obgreenhills/65/documents/class-2441/folder-10710/1709855495-2921.png" id="brand">
+            </a>
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a href="page2.html" class="nav-link text-light">First Quarter</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="page3.html" class="nav-link text-light">Second Quarter</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#" class="nav-link text-light">Third Quarter</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#" class="nav-link text-light">What's new?</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+        </div>  		
+    </nav>
+    <header>
+        <h1>The Philippine Gallery</h1>
+     </header>
+    <br>
+    <br>
+    <div class="desc">
+       <p>The Philippines is a beautiful archipelagic country found in Southeast Asia composed of roughly <strong>7,641 islands.</strong> <br> <br> With so many islands, there are so many places to travel, explore, and see the Filipino culture at its finest!</p>
+    </div>
+    <br>
+    <br>
+    <div class="best">
+       <h2>Three Destinations in The Philippines You Must Travel To!</h2>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+       <div class="Boracay">
+          <h3>Boracay</h3>
+          <p>Located in the Western Visayas region, Boracay is a small island with beautiful sceneries on the beaches of both sides. The <strong>White Beach</strong> located along the west coast have palm trees, bars and restaurants for a laid back experience while the <strong>Bulabog Beach</strong> on the east coast have strong winds for those looking to do water sports.</p>
+       </div>
+       <div class="Boracay-IMG">
+       </div>
+       <div class="Siargao-IMG">
+       </div>
+       <div class="Siargao">
+          <h3>Siargao</h3>
+          <p>Known as the "Surfing Capital of the Philippines," the Siargao Island is well defined by it's tear-drop shape. It features stunning beaches, lagoons, rock pools, and the famous <strong>Cloud 9</strong> surfing spot. If you are to go here, prepare for activities such as island hopping, snorkeling, and diving.</p>
+       </div>
+       <div class="Baguio">
+          <h3>Baguio</h3>
+          <p>Baguio is known as the summer capital of the Philippines and the "City of Pines" and for good reason. The unusually colder weather makes it a popular hotspot for many ongoers during the summer. Locations such as the <strong>Valley of Colors</strong> makes Baguio a great escape from the heavily urbanized areas in the Philippines. </p>
+       </div>  
+       <div class="Baguio-IMG">
+       </div>
+     </div>
+    <br>
+    <br>
+    <footer>
+       <h4>Ethan Lucas Gonzales | 9-Topaz <br><br>Sources:</h4>
+       <p>
+       <a href="https://wallpaperaccess.com/boracay-hd" target="_blank">Boracay Image</a>
+       <br>
+       <a href="https://wallpapers.com/wallpapers/siargao-island-cloud-9-6bcbq7dfim0d09p1.html" target="_blank">Cloud 9 Image</a>
+       <br>
+       <a href="https://www.tripadvisor.com/Attraction_Review-g676743-d13118507-Reviews-Valley_of_Colors-La_Trinidad_Benguet_Province_Cordillera_Region_Luzon.html" target="_blank">Valley of Colors Image</a>
+       </p>
+       <a href="mainpage.html"><button class=" btn btn-outline-dark">Back to Main Page</button></a>
+    </footer>
+    
+</body>
+</html>
