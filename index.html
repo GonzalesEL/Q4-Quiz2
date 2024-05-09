@@ -19,20 +19,29 @@
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 20px;
-            width: 250px;
+            width: 500px;
+        }
+        img {
+            width: 200px;
+        }
+        input {
+            width: 450px;
         }
     </style>
 </head>
 <body>
     <div class="container center">
+        <img src="https://i.pinimg.com/736x/09/21/fc/0921fc87aa989330b8d403014bf4f340.jpg" class="rounded-circle" alt="">
+        <br>
+        <br>    
         <label for="email-input">Email:</label>
         <br>
-        <input id="email-input" type="email">
-        <br><br>
+        <input id="email-input" class="form-control" type="email" placeholder="Enter Email">
+        <br>
         <label for="pswrd">Password:</label>
         <br>
-        <input id="pswrd" type="password">
-        <br><br>
+        <input id="pswrd" class="form-control" type="password" placeholder="Enter password">
+        <br>
         <a href="mainpage.html"><button class="btn btn-success">Login</button></a>
         <button class="btn btn-danger">Cancel</button>
     </div>

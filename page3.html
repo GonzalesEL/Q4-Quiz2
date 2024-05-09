@@ -10,29 +10,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Raleway:wght@700&display=swap" rel="stylesheet">
     <style>
+        #return {
+            width: 100%;
+        }
         #brand {
             width: 50px;
         }
         body {
             background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Philippines-2196x1406.jpg');
             background-position: center;
-            color: black;
+            color: white;
             text-align: center;
         }
         header {
             text-align: center;
             font-size: xx-large;
             font-family: 'Raleway', sans-serif;
-            background-color: white;
-            padding: 15px;
+            background-color: black;
+            padding: 10px;
             opacity: .95;
         }
         .desc {
             text-align: center;
             font-size: larger;
             font-family: 'Barlow', sans-serif;
-            background-color: white;
-            border: 3px solid black;
+            background-color: black;
+            border: 3px solid white;
             border-radius: 25px;
             margin: auto;
             padding: 10px;
@@ -45,7 +48,7 @@
             font-family: 'Raleway', sans-serif;
             padding: 10px;
             margin: auto;
-            background-color: white;
+            background-color: black;
             opacity: .95;
         }
         h3 {
@@ -72,8 +75,8 @@
             text-align: center;
             font-size: large;
             font-family: 'Barlow', sans-serif;
-            background-color: white;
-            border: 3px solid black;
+            background-color: black;
+            border: 3px solid white;
             border-radius: 25px;
             text-align: center;
             padding: 25px;
@@ -81,7 +84,7 @@
         
         .Boracay-IMG { 
             grid-area: Boracay-IMG;
-            border: 3px solid black;
+            border: 3px solid white;
             border-radius: 25px;
             background-image: url('https://wallpaperaccess.com/full/1740357.jpg');
             background-position: center center;
@@ -91,7 +94,7 @@
         
         .Siargao-IMG { 
             grid-area: Siargao-IMG; 
-            border: 3px solid black;
+            border: 3px solid white;
             border-radius: 25px;
             background-image: url('https://wallpapers.com/images/hd/siargao-island-cloud-9-6bcbq7dfim0d09p1.jpg');
             background-position: center center;
@@ -104,8 +107,8 @@
             text-align: center;
             font-size: large;
             font-family: 'Barlow', sans-serif;
-            background-color: white;
-            border: 3px solid black;
+            background-color: black;
+            border: 3px solid white;
             border-radius: 25px;
             text-align: center;
             padding: 25px;
@@ -116,8 +119,8 @@
             text-align: center;
             font-size: large;
             font-family: 'Barlow', sans-serif;
-            background-color: white;
-            border: 3px solid black;
+            background-color: black;
+            border: 3px solid white;
             border-radius: 25px;
             text-align: center;
             padding: 25px;
@@ -125,7 +128,7 @@
         
         .Baguio-IMG { 
             grid-area: Baguio-IMG; 
-            border: 3px solid black;
+            border: 3px solid white;
             border-radius: 25px;
             background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4a/0e/21/valley-of-colors.jpg?w=1200&h=-1&s=1');
             background-position: center center;
@@ -135,7 +138,7 @@
 
         footer {
             text-align: center;
-            background-color: white;
+            background-color: black;
             padding: 10px;
             font-family: 'Barlow', sans-serif;
             opacity: .95;
@@ -169,7 +172,7 @@
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="button">Search</button>
+                <button class="btn btn-outline-light" type="button">Search</button>
             </form>
         </div>  		
     </nav>
@@ -211,7 +214,7 @@
     <br>
     <br>
     <footer>
-       <h4>Ethan Lucas Gonzales | 9-Topaz <br><br>Sources:</h4>
+       <h4>Sources:</h4>
        <p>
        <a href="https://wallpaperaccess.com/boracay-hd" target="_blank">Boracay Image</a>
        <br>
@@ -219,7 +222,7 @@
        <br>
        <a href="https://www.tripadvisor.com/Attraction_Review-g676743-d13118507-Reviews-Valley_of_Colors-La_Trinidad_Benguet_Province_Cordillera_Region_Luzon.html" target="_blank">Valley of Colors Image</a>
        </p>
-       <a href="mainpage.html"><button class=" btn btn-outline-dark">Back to Main Page</button></a>
+       <a href="mainpage.html"><button id="return" class=" btn btn-outline-light">Back to Main Page</button></a>
     </footer>
     
 </body>
