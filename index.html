@@ -20,9 +20,11 @@
             transform: translate(-50%, -50%);
             padding: 20px;
             width: 500px;
+            border: black 3px solid;
         }
         img {
             width: 200px;
+            height: auto;
         }
         input {
             width: 450px;
@@ -31,7 +33,7 @@
 </head>
 <body>
     <div class="container center">
-        <img src="https://i.pinimg.com/736x/09/21/fc/0921fc87aa989330b8d403014bf4f340.jpg" class="rounded-circle" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/256/17/17004.png" class="rounded-circle" alt="">
         <br>
         <br>    
         <label for="email-input">Email:</label>
@@ -42,8 +44,19 @@
         <br>
         <input id="pswrd" class="form-control" type="password" placeholder="Enter password">
         <br>
-        <a href="mainpage.html"><button class="btn btn-success">Login</button></a>
-        <button class="btn btn-danger">Cancel</button>
+        <button onclick="load()" class="btn btn-success">Login</button>
+        <button onclick="cancel()" class="btn btn-danger">Cancel</button>
     </div>
+    <script>
+        function load()
+        {
+            window.location.href="mainpage.html"
+        }
+        function cancel()
+        {
+            window.location.href="https://www.w3schools.com/js/default.asp"
+        }
+        document.getElementById("email-input").innerHTML="gmail"
+    </script>
 </body>
 </html>
